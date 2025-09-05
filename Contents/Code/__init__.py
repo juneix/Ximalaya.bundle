@@ -12,8 +12,8 @@ from io import open
 ARTIST_URL_WANGYI = 'http://music.163.com/api/v1/artist/'
 LYRIC_URL_WANGYI = 'https://music.163.com/api/song/lyric?id='
 
-XIMALAYA_SEARCH_BY_ALBUM = 'https://www.ximalaya.com/revision/search/main?core=album&kw='
-XIMALAYA_SEARCH_ARTIST = 'https://www.ximalaya.com/revision/search/main?core=user&kw='
+XIMALAYA_SEARCH_BY_ALBUM = 'https://www.ximalaya.com/revision/search?core=album&kw='
+XIMALAYA_SEARCH_ARTIST = 'https://www.ximalaya.com/revision/search?core=user&kw='
 XIMALAYA_ARTIST_ALBUM = 'https://www.ximalaya.com/revision/user/pub?uid='
 XIMALAYA_ARTIST_URL = 'https://www.ximalaya.com/revision/user/basic?uid='
 XIMALAYA_TRACK_URL = 'http://mobile.ximalaya.com/mobile/v1/album/track?albumId='
